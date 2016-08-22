@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding:0;
+	margin:auto;	
+	font-family:Verdana;
+	font-size:12px;
+	
+}
+
+#header{
+	margin:0;
+	padding:0;
+	height:100px;
+	background:url('../images/bg_header.jpg') top repeat-x;
+	background-position: top center;
+		
+}
+#logo img{
+    width: 100px;
+    padding: 10px;
+}
+#banner-content{
+    margin: 30px auto;
+    text-align: center;
+    width: 60%;
+    margin-left: 120px;
+}
+#banner{
+   width: 95%;
+   margin: 0px auto;
+}
+
+.sidebar_nav {
+    background-color: #FFFFFF;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    margin: 0;
+}
+.sidebar_nav > li > a:hover {
+    background-color: #F5F5F5;
+}
+.sidebar_nav > li:last-child > a {
+    border-radius: 0 0 6px 6px;
+}
+
+.wraper-control{
+	height:auto;	
+	border:solid 1px #CCC;
+	border-radius:5px;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+	margin:auto;
+	padding:10px;
+}
+.panel-control{	
+	border:solid 1px #CCC;
+	margin:auto;
+	padding:10px 0 10px 30px;
+	margin-bottom:50px;
+}
+
+
+.panel-control div.icon a {
+    border: 1px solid #F0F0F0;
+    color: #666666;
+    display: block;
+    float: left;
+    height: 97px;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 108px;
+}
+.panel-control .span {
+	text-align:center;
+	border:solid 1px;
+	border-radius:5px;
+	width:120px;
+	height:120px;
+	cursor:pointer;
+}
+
+.panel-control .span a {
+	color:#333;
+}
+#form_random{
+    
+background-color: #F5F5F5;
+    border-top: 1px solid #E5E5E5;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 19px 20px 20px;
+    width: 96%;
+}
+
+.span .row img{
+	width:48px;	
+	margin: 0 0 0 -20px;
+}
+#footer{
+    margin-top: 20px;
+    padding-top: 20px;
+    background: url('../images/bg_footer.jpg') repeat-x top;
+    
+}
+
+.row-fluid .span-photo{
+      height: 190px;
+    margin: 10px;
+    text-align: center;
+    width: 100px;
+    
+}
+#student_photos{
+    margin: 5px;
+
+}
